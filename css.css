@@ -4,14 +4,29 @@ body {
     color: #f5f6f7;
     background-color: #4CCE37;
 }
+.h {
+  height:auto;
+}
+@media screen and (min-width: 600px) {
+  .h {
+    height: 500px;
+  }
+}
+#about_me {
+  display: none;
+}
+#education {
+  display: none;
+}
+#empl{
+  display: none;
+}
 a {
   color: black;
 }
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
-.h {
-  height:400px;
-}
+
 .k {
   height:500px;
 }
@@ -147,4 +162,3 @@ fieldset {
   outline: 0;
   border: 1px solid #aaa;
 }
-
