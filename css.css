@@ -12,13 +12,13 @@ body {
     height: 500px;
   }
 }
-#about_me {
+.about_me {
   display: none;
 }
-#education {
+.education {
   display: none;
 }
-#empl{
+.empl{
   display: none;
 }
 a {
